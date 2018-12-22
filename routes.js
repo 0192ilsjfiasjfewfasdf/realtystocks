@@ -35,5 +35,4 @@ const routes = {
     deleteVideo: DELETE_VIDEO
 };
 
-
 export default routes;
