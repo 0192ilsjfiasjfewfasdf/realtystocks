@@ -1,3 +1,8 @@
+
+
+
+
+/* BELOW LINES ARE WRITTEN MOCK DATA JUST FOR TESTING THE WEB BEFORE REAL CONNECTION TO THE DATABASE!!!!!!
 export const videos = [
     {
         id: 42007,
@@ -36,3 +41,4 @@ export const videos = [
         }
     }
 ];
+*/

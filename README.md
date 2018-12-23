@@ -2,6 +2,10 @@
 
 Building realty video sharing website with Vanilla and NodeJS
 
+## Tech (will be) used - (currently work in progress)
+- Back-end : MongoDB, NodeJS, ES6, Prisma, Express, AWS, Heroku
+- Front-end : 100% Vanilla JS, SaSS, ES6, WebPack, Pug
+
 ## Pages:
 - [ ] Home
 - [x] Join
