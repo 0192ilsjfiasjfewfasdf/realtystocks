@@ -80,3 +80,7 @@ typings/
 
 # for package's security
 package.json
+package-lock.json
+uploads
+
+
