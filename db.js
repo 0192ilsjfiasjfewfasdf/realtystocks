@@ -1,13 +1,14 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+
 dotenv.config();
 
 mongoose.connect(
-    process.env.MONGO_URL,
-    {
-        useNewUrlParser: true,
-        useFindAndModify: false
-    }
+  process.env.MONGO_URL,
+  {
+    useNewUrlParser: true,
+    useFindAndModify: false
+  }
 );
 
 const db = mongoose.connection;
@@ -17,7 +18,6 @@ const handleError = error => console.log("❗️Error on DB connection");
 
 db.once("open", handleOpen);
 db.on("error", handleError);
-
 
 /* BELOW LINES ARE WRITTEN MOCK DATA JUST FOR TESTING THE WEB BEFORE REAL CONNECTION TO THE DATABASE!!!!!!
 export const videos = [
