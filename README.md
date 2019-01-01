@@ -1,11 +1,11 @@
 # RealtyStocks
 
-Building realty video sharing website with Vanilla and NodeJS
+Building realty video sharing website with Vanilla JS and Node.js
 
 ## Tech (will be) used - (currently work in progress)
 
-- Back-end : MongoDB, NodeJS, ES6, Prisma, Express, AWS, Heroku
-- Front-end : 100% Vanilla JS, Sass, ES6, WebPack, Pug
+- Back-end : MongoDB, Node.js, ES6, Prisma, Express, AWS, Heroku
+- Front-end : 100% Vanilla JS, Sass, ES6, Webpack, Pug
 
 ## Pages:
 
